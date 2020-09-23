@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<title>W3.JS</title>
+<meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.abfrl.com/css/website-css/bootstrap.min.css">
+<link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css">
+<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+
+<body>
+    <div class="row custom">
+         <div class="responsive col-12 col-lg-12">
+          <div class="out">
+            <img class=" box-shadow-dark-15" src="/slide1.jpg">
+            <caption>HAND WASH</caption>
+          </div>
+          <div class="out">
+            <img class=" box-shadow-dark-15" src="/slide2.jpg">
+            <caption>proffesional hand hygiene</caption>
+          </div>
+          <div class="out">
+            <img class=" box-shadow-dark-15" src="/slide3.jpg">
+            <caption>Surgical hand hygiene</caption>
+          </div>
+          <div class="out">
+            <img class=" box-shadow-dark-15" src="/slide1.jpg">
+            <caption>HAND WASH</caption>
+          </div>
+          <div class="out">
+            <img class=" box-shadow-dark-15" src="/slide2.jpg">
+            <caption>proffesional hand hygiene</caption>
+          </div>
+          <div class="out">
+            <img class=" box-shadow-dark-15" src="/slide3.jpg">
+            <caption>Surgical hand hygiene</caption>
+          </div>
+        </div>
+    </div>
+
+        
+
+        
+        <script type="text/javascript" src='http://www.abfrl.com/js/website-js/jquery-3.3.1.min.js'></script>
+        <script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.js"></script>        
+       
+  <script type="text/javascript">
+  $(document).ready(function(){
+     $('.responsive').slick({
+       slidesToShow: 3,
+       slidesToScroll: 1,
+       dots: false,
+       arrows:true,
+       autoplay:true,
+       autoplaySpeed:2000,
+       
+
+       responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+       slidesToScroll: 1,
+       dots: false,
+       arrows:true,
+       autoplay:true,
+       autoplaySpeed:2000
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+       slidesToScroll: 1,
+       dots: false,
+       arrows:true,
+       autoplay:true,
+       autoplaySpeed:2000
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+       slidesToScroll: 1,
+       dots: false,
+       arrows:true,
+       autoplay:false,
+       autoplaySpeed:2000
+      }
+    }
+     ]
+     });
+   });
+  </script>
+    
+</body>
+</html>

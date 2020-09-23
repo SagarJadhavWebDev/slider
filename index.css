@@ -1,0 +1,129 @@
+.custom{
+    margin: 120px 90px;
+    margin-left: 10rem !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.slick-next{
+    color: black !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    right: 4rem;
+    background-color:lightgrey !important;
+    margin-right: -1rem !important;
+    border-radius: 25rem;
+}
+.slick-prev{
+    color: black !important;
+    border-radius: 25rem;
+    width: 3rem !important;
+    height: 3rem !important;
+    right: 4rem;
+    background-color: lightgrey !important;
+    left: -65px !important;
+}
+
+
+@media only screen and (min-width: 1366px){
+    .custom{
+        margin: 120px -10px;
+        margin-left: 8rem !important;
+    }
+    .slick-next{
+        color: black !important;
+        width: 3rem !important;
+        height: 3rem !important;
+        right: 2rem;
+        background-color:lightgrey !important;
+        margin-right: 2.3rem !important;
+        border-radius: 25rem;
+    }
+    .slick-prev{
+        color: black !important;
+        border-radius: 25rem;
+        width: 3rem !important;
+        height: 3rem !important;
+        right: 4rem;
+        background-color: lightgrey !important;
+        left: -42px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+     .out{
+         text-align: center !important;
+         font-weight: 500;
+         text-transform: uppercase;
+     }
+    .out img{
+    width: 100% !important;
+    left: 3rem;
+    }
+    .responsive{
+        margin-left: -1.8rem !important;
+    }
+
+    .custom{
+        
+        margin:20px 20px;
+        margin-left: 5rem !important;
+    }
+    .slick-next{
+        color: black !important;
+        width: 2rem !important;
+        height: 2rem !important;
+        right: 2rem;
+        background-color:lightgrey !important;
+        margin-right: 0rem !important;
+        border-radius: 25rem;
+    }
+    .slick-prev{
+        color: black !important;
+        border-radius: 25rem;
+        width: 2rem !important;
+        height: 2rem !important;
+        margin-left: 2rem;
+        background-color: lightgrey !important;
+        
+    }
+    
+}
+@media only screen and (min-width: 600px )and (max-width:1024px) {
+    .out{
+        text-align: center !important;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+   .out img{
+   width: 100% !important;
+   left: 3rem;
+   }
+   .responsive{
+       margin-left: -1.8rem !important;
+   }
+
+   .custom{
+       
+       margin:20px 20px;
+       margin-left: 5rem !important;
+   }
+   .slick-next{
+       color: black !important;
+       width: 2rem !important;
+       height: 2rem !important;
+       right: 2rem;
+       background-color:lightgrey !important;
+       margin-right: 0rem !important;
+       border-radius: 25rem;
+   }
+   .slick-prev{
+       color: black !important;
+       border-radius: 25rem;
+       width: 2rem !important;
+       height: 2rem !important;
+       margin-left: 2rem;
+       background-color: lightgrey !important;
+       
+   }
+
+}
